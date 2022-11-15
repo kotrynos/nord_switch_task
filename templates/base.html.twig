@@ -49,9 +49,7 @@
                     method: 'POST',
                     data: $('#form').serialize(),
                     success: function(response) {
-                        if (response.status === 'success') {
-
-                        }
+                        console.log(response.message);
                     }
                 });
             });
